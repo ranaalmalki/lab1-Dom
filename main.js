@@ -1,8 +1,10 @@
 
 
 
-document.getElementById("name1").style.color = "white";
-document.getElementById("name1").style.backgroundColor = "green";
+document.getElementsByClassName("name1")[0].style.color = "white";
+document.getElementsByClassName("name1")[0].style.backgroundColor = "green";
+
+// document.getElementById("name1").style.backgroundColor = "green";
 
 // document.getElementsByClassName('name1')[0].style. = 'green';
 
