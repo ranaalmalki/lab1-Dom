@@ -5,3 +5,13 @@
 color: azure;
 background: green;
 }
+
+
+
+.tablestyle{
+    border: 1px solid green;
+}
+
+.row-bold{
+    font-weight: bold;
+}

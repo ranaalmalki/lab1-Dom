@@ -29,17 +29,31 @@ li2.style.color="green"
 li3.style.color="green"
 
 //DRY ????
+let divt =document.querySelector("div")
 let table = document.createElement("table")
-table.setAttribute("aa" , "mytable")
-document.body.appendChild(table); 
+
+table.setAttribute("class" ,"tablestyle")
+divt.appendChild(table)
+
+let row = table.insertRow(0)
+let row1 = table.insertRow(1)
+row.setAttribute("class","row-bold")
+//DRY ????
 
 
-let trr = document.createElement("tr")
+let col1 = row.insertCell(0)
+let col2 = row.insertCell(1)
+let col3 = row.insertCell(2)
 
-let td = document.createElement("td")
+col1.innerText="fname "
+col2.innerText="lname"
+col3.innerText="hobby"
 
-table.appendChild(tr)
-tr.appendChild(td)
-td.textContent="fff"
+let col11 =row1.insertCell(0)
+let col12 =row1.insertCell(1)
+let col13 =row1.insertCell(2)
 
+col11.innerText="Rana"
+col12.innerText="Almalki"
+col13.innerText="video game"
 
